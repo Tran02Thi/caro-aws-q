@@ -1,23 +1,42 @@
-# Game Cờ Caro 10x10
+# Caro Game
 
-Game cờ caro đơn giản được phát triển bằng Python và thư viện Pygame. Trò chơi cho phép hai người chơi thay phiên nhau đánh dấu X và O trên bảng 10x10, với mục tiêu tạo được 5 quân liên tiếp theo hàng ngang, dọc hoặc đường chéo.
+Game cờ caro đơn giản được phát triển bằng Python và thư viện Pygame. Trò chơi cho phép hai người chơi thay phiên nhau đánh dấu X và O trên bảng 10x10, với điều kiện chiến thắng là tạo được 5 quân liên tiếp theo hàng ngang, dọc hoặc đường chéo.
 
-## Yêu cầu hệ thống
+## Requirements
 
 - Python 3.x
 - Pygame
+- Install Amazon Q for Developer ( in this case is Windowns )
 
 ## Cài đặt
 
 1. Đảm bảo bạn đã cài đặt Python 3.x
-2. Cài đặt thư viện Pygame bằng lệnh:
+2. Cài đặt Amazon Q Developer
+   ```
+   https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html?b=cli&p=overview&s=hero
+   ```
+4. Cài đặt thư viện Pygame bằng lệnh:
    ```
    pip install pygame
    ```
-3. Tải file `caro.py` và chạy:
+5. Tải file `caro.py` và chạy:
    ```
    python caro.py
    ```
+## Promt 
+Dưới đây là các prompt chính đã được sử dụng trong quá trình phát triển game:
+
+    Giúp tôi tạo game caro với kích thước 10x10 bằng Python và thư viện Pygame
+
+    Tạo file README.md và file caro.py chứa code. Sau đó lưu trong thư mục /home/ther/caro
+
+Quản lý mã nguồn với Git:
+    
+    Commit toàn bộ trong /home/ther/caro và push lên nhánh main giúp tôi.
+
+Quản lý tài liệu:
+ 
+    Viết nội dung file README bao gồm hướng dẫn cài đặt, ý nghĩa nội dung các hàm và cách chơi game này.
 
 ## Cách chơi
 

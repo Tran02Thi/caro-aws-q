@@ -26,9 +26,18 @@ Game cờ caro đơn giản được phát triển bằng Python và thư viện
 ## Promt 
 Dưới đây là các prompt chính đã được sử dụng trong quá trình phát triển game:
 
-    Giúp tôi tạo game caro với kích thước 10x10 bằng Python và thư viện Pygame
-
-    Tạo file README.md và file caro.py chứa code. Sau đó lưu trong thư mục /home/ther/caro
+      Giúp tôi tạo game caro với kích thước 10x10 bằng Python và thư viện Pygame với các tính năng: 
+         - Bàn cờ 10x10, thắng khi có 5 quân liên tiếp
+         - Menu có 2 chế độ khởi động: "Play vs AI" và "2 Players"
+         - Sử dụng AI thông minh với thuật toán đánh giá vị trí cho chế độ Play vs AI
+         - Hiệu ứng 3D: ô chưa chọn nổi lên, ô đã chọn ấn xuống
+         - Màu sắc: nền đen nhạt, đường kẻ trắng
+         - Tạo Quân X và O với hiệu ứng bóng đổ và gradient 3D
+         - Khi thắng sẽ có đường thắng màu trắng nhỏ gọn đi qua 5 ô
+         - Tạo 3 nút Option: New Game, Undo, Exit và căn giữa
+         - Nút Undo chỉ hoạt động ở chế độ 2 người chơi
+         - Padding 10px xung quanh bàn cờ
+      Cuối cùng file README.md và file caro.py chứa code. Sau đó lưu trong thư mục /home/ther/caro
 
 Quản lý mã nguồn với Git:
     

@@ -8,7 +8,7 @@ Game cờ caro đơn giản được phát triển bằng Python và thư viện
 - Pygame
 - Install Amazon Q for Developer ( in this case is Windows )
 
-## Cài đặt
+## Install
 
 1. Đảm bảo bạn đã cài đặt Python 3.x
 2. Cài đặt Amazon Q Developer
@@ -47,7 +47,7 @@ Quản lý tài liệu:
  
     Viết nội dung file README bao gồm hướng dẫn cài đặt, ý nghĩa nội dung các hàm và cách chơi game này.
 
-## Cách chơi
+## How to play
 Mode 2 players:
    ```
       - Người chơi X (màu đỏ) đi trước
@@ -63,7 +63,7 @@ Mode Play vs Bot
       - Khi trò chơi kết thúc, nhấn phím R để chơi lại
    ```
 
-## Giải thích mã nguồn
+## Explain Code
 
 ### Các biến và cấu hình chính
 

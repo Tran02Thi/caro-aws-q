@@ -6,7 +6,7 @@ Game cờ caro đơn giản được phát triển bằng Python và thư viện
 
 - Python 3.x
 - Pygame
-- Install Amazon Q for Developer ( in this case is Windowns )
+- Install Amazon Q for Developer ( in this case is Windows )
 
 ## Cài đặt
 
@@ -23,12 +23,12 @@ Game cờ caro đơn giản được phát triển bằng Python và thư viện
    ```
    python caro.py
    ```
-## Promt 
-Dưới đây là các prompt chính đã được sử dụng trong quá trình phát triển game:
+## Prompt Template 
+Dưới đây là các Prompt chính đã được sử dụng trong quá trình phát triển game:
 
       Giúp tôi tạo game caro với kích thước 10x10 bằng Python và thư viện Pygame với các tính năng: 
          - Bàn cờ 10x10, thắng khi có 5 quân liên tiếp
-         - Menu có 2 chế độ khởi động: "Play vs AI" và "2 Players"
+         - Menu có 2 chế độ khởi động: "Play vs Bot" và "2 Players"
          - Sử dụng AI thông minh với thuật toán đánh giá vị trí cho chế độ Play vs AI
          - Hiệu ứng 3D: ô chưa chọn nổi lên, ô đã chọn ấn xuống
          - Màu sắc: nền đen nhạt, đường kẻ trắng
@@ -48,11 +48,20 @@ Quản lý tài liệu:
     Viết nội dung file README bao gồm hướng dẫn cài đặt, ý nghĩa nội dung các hàm và cách chơi game này.
 
 ## Cách chơi
-
-- Người chơi X (màu đỏ) đi trước
-- Click chuột để đặt quân X hoặc O vào ô trống
-- Thắng khi có 5 quân liên tiếp theo hàng ngang, dọc hoặc chéo
-- Khi trò chơi kết thúc, nhấn phím R để chơi lại
+Mode 2 players:
+   ```
+      - Người chơi X (màu đỏ) đi trước
+      - Click chuột để đặt quân X hoặc O vào ô trống
+      - Thắng khi có 5 quân liên tiếp theo hàng ngang, dọc hoặc chéo
+      - Khi trò chơi kết thúc, nhấn phím R để chơi lại
+   ```
+Mode Play vs Bot
+   ```
+      - Người chơi X (màu đỏ) đi trước
+      - Bot đi sau với O (màu xanh)
+      - Thắng khi có 5 quân liên tiếp theo hàng ngang, dọc hoặc chéo
+      - Khi trò chơi kết thúc, nhấn phím R để chơi lại
+   ```
 
 ## Giải thích mã nguồn
 

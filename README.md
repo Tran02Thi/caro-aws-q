@@ -117,7 +117,3 @@ Vòng lặp chính của trò chơi xử lý các sự kiện như:
 ## Tác giả
 
 Game được tạo bởi người dùng thông qua Amazon Q.
-
-## Giấy phép
-
-Mã nguồn này được cung cấp miễn phí và có thể được sử dụng, sửa đổi và phân phối lại.
